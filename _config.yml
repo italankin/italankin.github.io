@@ -5,7 +5,7 @@ author:
 description: >-
   Android developer writing about stuff
 baseurl: ""
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://italankin.me"
 
 theme: minima
 plugins:
