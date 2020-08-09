@@ -1,0 +1,31 @@
+title: Igor Net
+author:
+  name: Igor Talankin
+  email: "italankin@gmail.com"
+description: >-
+  Android developer writing about stuff
+baseurl: ""
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      type: "posts"
+    values:
+      layout: "post"
+      category: "general"
+
+permalink: /blog/:title/
+header_pages:
+  - projects.markdown
+  - about.markdown
+
+minima:
+  social_links:
+    github: italankin
+    instagram: igortalankin
+    stackoverflow: "3604617"
+    telegram: italankin
