@@ -25,6 +25,7 @@ Command line wrapper for [adb][adb-docs] with device selection dialog
 Android launcher without icons
 
 * Download: [Google Play][lnch-store]
+* Source: [GitHub][lnch-source]
 
 ## Talks
 
@@ -49,6 +50,7 @@ A brief overview of Android launcher functionality and problems developers can f
 [adbc-source]: https://github.com/italankin/adbc
 
 [lnch-store]: https://play.google.com/store/apps/details?id=com.italankin.lnch
+[lnch-source]: https://github.com/italankin/lnch
 
 [custom-lint-rules-mobius]: https://2019.mobius-moscow.ru/2019/msk/talks/cfbaqtxfqyvuikcyhvxn1/
 [custom-lint-rules-youtube]: https://www.youtube.com/watch?v=g-gVAylSs5A
