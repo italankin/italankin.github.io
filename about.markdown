@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-I am an Android developer with almost 5 years experience, currently employed in [Tinkoff.ru][tinkoff].
+I am an Android developer with 5 years' experience, currently employed in [Tinkoff.ru][tinkoff].
 
 Occasionally I give talks on meet-ups and conferences (list of my talks is on the [projects page](/projects/#talks)) and teach students Android at [Tinkoff Finctech school][tfs].
 
