@@ -27,6 +27,13 @@ Android launcher without icons
 * Download: [Google Play][lnch-store]
 * Source: [GitHub][lnch-source]
 
+# __Sample Voice Bot__
+
+TTS Telegram bot
+
+* Try it: [@samplevoicebot][samplevoicebot]
+* Source: [GitHub][samplevoicebot-source]
+
 ## Talks
 
 # __Custom Lint Rules__
@@ -51,6 +58,9 @@ A brief overview of Android launcher functionality and problems developers can f
 
 [lnch-store]: https://play.google.com/store/apps/details?id=com.italankin.lnch
 [lnch-source]: https://github.com/italankin/lnch
+
+[samplevoicebot]: https://t.me/samplevoicebot
+[samplevoicebot-source]: https://github.com/italankin/samplevoicebot
 
 [custom-lint-rules-mobius]: https://2019.mobius-moscow.ru/2019/msk/talks/cfbaqtxfqyvuikcyhvxn1/
 [custom-lint-rules-youtube]: https://www.youtube.com/watch?v=g-gVAylSs5A
