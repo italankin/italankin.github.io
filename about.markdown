@@ -10,6 +10,8 @@ Occasionally I give talks on meet-ups and conferences (list of my talks is on th
 
 I also do [photography][instagram], sometimes helping my friends at local [Sofar Sounds community][sofar].
 
+In love with coffee.
+
 [tinkoff]: https://tinkoff.ru
 [tfs]: https://fintech.tinkoff.ru/
 [instagram]: https://www.instagram.com/igortalankin/
