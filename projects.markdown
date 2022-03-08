@@ -62,7 +62,7 @@ A brief overview of Android launcher functionality and problems developers can f
 [samplevoicebot]: https://t.me/samplevoicebot
 [samplevoicebot-source]: https://github.com/italankin/samplevoicebot
 
-[custom-lint-rules-mobius]: https://2019.mobius-moscow.ru/2019/msk/talks/cfbaqtxfqyvuikcyhvxn1/
+[custom-lint-rules-mobius]: https://mobiusconf.com/en/
 [custom-lint-rules-youtube]: https://www.youtube.com/watch?v=g-gVAylSs5A
 [android-lint]: http://tools.android.com/tips/lint
 
