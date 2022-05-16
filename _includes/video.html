@@ -1,0 +1,12 @@
+<style>
+    figure {
+        display: inline-block;
+        text-align: center;
+    }
+</style>
+<figure class="video">
+    <video muted autoplay loop>
+        <source src="{{ include.url }}" type="video/mp4">
+    </video>
+    <figcaption><em>{{ include.description }}</em></figcaption>
+</figure>
