@@ -14,6 +14,12 @@ A classic [15 puzzle][15-puzzle-wiki] game for Android
 * Source: [GitHub][15-puzzle-source]
 * Website: [15puzzle.app][15-puzzle-site]
 
+# __Fifteen__
+
+A new version of 15 Puzzle app.
+
+* Download: [Google Play][fifteen-store], [GitHub][fifteen-github]
+
 # __adbc__
 
 Command line wrapper for [adb][adb-docs] with device selection dialog
@@ -52,6 +58,9 @@ A brief overview of Android launcher functionality and problems developers can f
 [15-puzzle-store]: https://play.google.com/store/apps/details?id=com.italankin.fifteen
 [15-puzzle-source]: https://github.com/italankin/15Puzzle
 [15-puzzle-site]: https://15puzzle.app
+
+[fifteen-store]: https://play.google.com/store/apps/details?id=com.italankin.fifteen2
+[fifteen-github]: https://github.com/italankin/fifteen-releases
 
 [adb-docs]: https://developer.android.com/studio/command-line/adb
 [adbc-source]: https://github.com/italankin/adbc
