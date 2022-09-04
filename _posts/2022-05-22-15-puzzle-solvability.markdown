@@ -125,7 +125,7 @@ The essence of solvability of an arbitrary position lies in [parity](https://en.
 
 At first, we need to count _number of inversions_:
 
-> For every number in the starting position (from left to right, from top to bottom) count the numbers which stand **after** every number and are less than that number (excluding 0)
+> For each number in the starting position (from left to right, from top to bottom) count the numbers which stand **after** each number and are less than that number (excluding 0)
 
 It is actually total count of numbers that are out of their natural order.
 For the final position number of inversions is equal to 0 because the numbers are in ascending order.
