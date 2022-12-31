@@ -1,6 +1,6 @@
 ---
 title:  "Using breadth-first search in Shisen-Sho"
-date:   2022-10-31 12:00:00 +0400
+date:   2022-12-31 12:00:00 +0400
 ---
 
 [Shisen-Sho](https://en.wikipedia.org/wiki/Shisen-Sho) (also known as Four-Rivers or simply Rivers) is a mahjong-like game,
