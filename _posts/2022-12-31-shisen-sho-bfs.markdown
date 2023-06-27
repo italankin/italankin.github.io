@@ -423,7 +423,7 @@ fun expand(node: SearchNode, bx: Int, by: Int): List<SearchNode> {
 
 Although BFS is not the optimal solution in terms of memory, it always finds the shortest paths and thus works well for shisen-sho.
 
-And if you haven't played the game itself, you should definetely try it out.
-[kshisen](https://apps.kde.org/kshisen/) is a good (and free) one to start, but I personally like [Kyodai Mahjongg](https://cynagames.com/) more.
+And if you haven't played the game itself, you should definetely try it out. For example, download
+[my Shisen-Sho for Android](https://play.google.com/store/apps/details?id=com.italankin.shisensho).
 
-_My Android version of Shisen-Sho is also coming soon™_
+Also, [kshisen](https://apps.kde.org/kshisen/) is a good (and free) one to start, but I personally like [Kyodai Mahjongg](https://cynagames.com/) more.
