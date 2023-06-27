@@ -26,6 +26,12 @@ Command line wrapper for [adb][adb-docs] with device selection dialog
 
 * Source: [GitHub][adbc-source]
 
+#### 🎮 Shisen-Sho
+
+[Shisen-Sho](https://en.wikipedia.org/wiki/Shisen-Sho) for Android.
+
+* Download: [Google Play][shisensho-store]
+
 #### 📱 lnch
 
 Android launcher without icons
@@ -83,6 +89,8 @@ A brief overview of Android launcher functionality and problems developers can f
 
 [adb-docs]: https://developer.android.com/studio/command-line/adb
 [adbc-source]: https://github.com/italankin/adbc
+
+[shisensho-store]: https://play.google.com/store/apps/details?id=com.italankin.shisensho
 
 [lnch-store]: https://play.google.com/store/apps/details?id=com.italankin.lnch
 [lnch-source]: https://github.com/italankin/lnch
