@@ -4,6 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
+Most of the stuff I do you can find on my [GitHub][github].
+
 ## Software
 
 #### 🎮 15 Puzzle
@@ -16,7 +18,7 @@ A classic [15 puzzle][15-puzzle-wiki] game for Android
 
 #### 🎮 Fifteen
 
-A new version of 15 Puzzle app.
+A new version of 15 Puzzle app
 
 * Download: [Google Play][fifteen-store], [GitHub][fifteen-github]
 
@@ -78,6 +80,8 @@ A talk of how to write custom rules for [Android Lint][android-lint] at [Mobius 
 A brief overview of Android launcher functionality and problems developers can face (given at [Tinkoff Android meet-up #2][tinkoff-meet-up-2])
 
 * Watch: [🇷🇺 Youtube][launcher-pitfalls]
+
+[github]: https://github.com/italankin
 
 [15-puzzle-wiki]: https://en.wikipedia.org/wiki/15_puzzle
 [15-puzzle-store]: https://play.google.com/store/apps/details?id=com.italankin.fifteen
