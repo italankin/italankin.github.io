@@ -1,6 +1,7 @@
 ---
 title:  "Using breadth-first search in Shisen-Sho"
 date:   2022-12-31 12:00:00 +0400
+toc: true
 ---
 
 [Shisen-Sho](https://en.wikipedia.org/wiki/Shisen-Sho) (also known as Four-Rivers or simply Rivers) is a mahjong-like game,
@@ -110,7 +111,7 @@ If old and new directions differ, decrease number of turns. If number of remaini
 
 _N.B. I will use Kotlin to implement the algorithm_
 
-# 4.1. Prepare the field
+#### 4.1. Prepare the field
 
 First, create an array of arrays for storing game field, where `null` is for an empty cell and `Char` is for a tile:
 
@@ -163,7 +164,7 @@ After these manipulations, our `gameField` will look like this (`.` is empty cel
 . . . . . . . .
 ```
 
-# 4.2. Prepare the tools
+#### 4.2. Prepare the tools
 
 Create `SearchNode` class, which will hold information about nodes:
 
@@ -215,7 +216,7 @@ fun expand(node: SearchNode): List<SearchNode> {
 }
 ```
 
-# 4.3. Implement the algorithm
+#### 4.3. Implement the algorithm
 
 Everything is ready for implementing the search algorithm.
 
