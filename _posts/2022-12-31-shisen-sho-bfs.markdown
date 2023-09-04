@@ -424,6 +424,11 @@ fun expand(node: SearchNode, bx: Int, by: Int): List<SearchNode> {
 
 Although BFS is not the optimal solution in terms of memory, it always finds the shortest paths and thus works well for shisen-sho.
 
+The code can be found in my repository [italankin/shisensho-base](https://github.com/italankin/shisensho-base):
+
+* [Basic game implementation](https://github.com/italankin/shisensho-base/blob/master/src/main/kotlin/com/italankin/shisensho/game/impl/ShisenShoGameImpl.kt)
+* [Implementation of BFS](https://github.com/italankin/shisensho-base/blob/master/src/main/kotlin/com/italankin/shisensho/game/impl/BfsPathFinder.kt)
+
 And if you haven't played the game itself, you should definetely try it out. For example, download
 [my Shisen-Sho for Android](https://play.google.com/store/apps/details?id=com.italankin.shisensho).
 
