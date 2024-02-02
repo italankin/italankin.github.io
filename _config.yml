@@ -22,6 +22,7 @@ permalink: /blog/:title/
 header_pages:
   - projects.markdown
   - about.markdown
+  - support.markdown
 
 minima:
   social_links:
