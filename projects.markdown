@@ -33,6 +33,7 @@ Command line wrapper for [adb][adb-docs] with device selection dialog
 [Shisen-Sho](https://en.wikipedia.org/wiki/Shisen-Sho) for Android.
 
 * Download: [Google Play][shisensho-store]
+* Source: [GitHub][shisensho-source] (only base implementation of game)
 
 #### 📱 lnch
 
@@ -77,29 +78,39 @@ A talk of how to write custom rules for [Android Lint][android-lint] at [Mobius 
 
 #### The pitfalls of creating a launcher app
 
-A brief overview of Android launcher functionality and problems developers can face (given at [Tinkoff Android meet-up #2][tinkoff-meet-up-2])
+A brief overview of Android launcher functionality and problems developers can face (given
+at [Tinkoff Android meet-up #2][tinkoff-meet-up-2])
 
 * Watch: [🇷🇺 Youtube][launcher-pitfalls]
 
 [github]: https://github.com/italankin
 
 [15-puzzle-wiki]: https://en.wikipedia.org/wiki/15_puzzle
+
 [15-puzzle-store]: https://play.google.com/store/apps/details?id=com.italankin.fifteen
+
 [15-puzzle-source]: https://github.com/italankin/15Puzzle
+
 [15-puzzle-site]: https://15puzzle.app
 
 [fifteen-store]: https://play.google.com/store/apps/details?id=com.italankin.fifteen2
+
 [fifteen-github]: https://github.com/italankin/fifteen-releases
 
 [adb-docs]: https://developer.android.com/studio/command-line/adb
+
 [adbc-source]: https://github.com/italankin/adbc
 
 [shisensho-store]: https://play.google.com/store/apps/details?id=com.italankin.shisensho
 
+[shisensho-source]: https://github.com/italankin/shisensho-base
+
 [lnch-store]: https://play.google.com/store/apps/details?id=com.italankin.lnch
+
 [lnch-source]: https://github.com/italankin/lnch
 
 [samplevoicebot]: https://t.me/samplevoicebot
+
 [samplevoicebot-source]: https://github.com/italankin/samplevoicebot
 
 [mitmproxy-addons-source]: https://github.com/italankin/mitmproxy-addons
@@ -107,11 +118,15 @@ A brief overview of Android launcher functionality and problems developers can f
 [adapter-delegates-source]: https://github.com/italankin/adapter-delegates
 
 [dictionary-store]: https://play.google.com/store/apps/details?id=com.italankin.dictionary
+
 [dictionary-source]: https://github.com/italankin/dictionary
 
 [custom-lint-rules-mobius]: https://mobiusconf.com/en/
+
 [custom-lint-rules-youtube]: https://www.youtube.com/watch?v=g-gVAylSs5A
+
 [android-lint]: http://tools.android.com/tips/lint
 
 [tinkoff-meet-up-2]: https://meetup.tinkoff.ru/event/android-meetup-2/
+
 [launcher-pitfalls]: https://www.youtube.com/watch?v=erfMCHu8KdE
