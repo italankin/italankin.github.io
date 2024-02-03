@@ -5,6 +5,7 @@ permalink: /projects/
 ---
 
 Most of the stuff I do you can find on my [GitHub][github].
+My Google Play apps can be found on [this page][google-play-dev].
 
 ## Software
 
@@ -84,6 +85,8 @@ at [Tinkoff Android meet-up #2][tinkoff-meet-up-2])
 * Watch: [🇷🇺 Youtube][launcher-pitfalls]
 
 [github]: https://github.com/italankin
+
+[google-play-dev]: https://play.google.com/store/apps/dev?id=4888983757836759005
 
 [15-puzzle-wiki]: https://en.wikipedia.org/wiki/15_puzzle
 
