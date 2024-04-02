@@ -37,7 +37,7 @@ However, the only [half of them are solvable](https://en.wikipedia.org/wiki/15_p
 
 > Interesting fact: starting a new 15 puzzle game (at least in [my version](https://15puzzle.app)), you can be certain that no one else in the world has ever seen your position!
 
-So, when generating a puzzle, we must guarantee it's solvability - otherwise players won't be able to reach the goal.
+So, when generating a puzzle, we must guarantee its solvability - otherwise players won't be able to reach the goal.
 
 #### 2.1. A set of predefined positions
 
@@ -50,7 +50,7 @@ Of course, the format can be optimized (e.g. instead of 32-bit integers we can u
 And we even do not take into the account the time it would take to generate ~10<sup>13</sup> positions!
 
 As a workaround, we can take a much smaller set, such as 10<sup>5</sup>.
-It will make the game *simplier* in some way, since we exclude a large part of possible positions.
+It will make the game *simpler* in some way, since we exclude a large part of possible positions.
 
 But wait, if we somehow have managed to generate trillions of different positions beforehand, why we can't do it in runtime?
 
@@ -86,7 +86,7 @@ One method is the following:
 This method guarantees that the resulting position will be solvable because we get there by making valid moves.
 The only question is: how many times do we need to repeat 2-3?
 
-I've ran a simulation for 4x4, and here's the chart showing different number of iterations and an average number of moves required to solve the puzzle:
+I've run a simulation for 4x4, and here's the chart showing different number of iterations and an average number of moves required to solve the puzzle:
 
 {% include image.html url="/assets/posts/15_puzzle_solvability/random-moves-iterations.jpg" description="Random moves performance" %}
 
@@ -223,7 +223,7 @@ Because of that, possible outcomes are:
 * If 1 of numbers is bigger than moving number, inversions change by +1
 * If none of numbers are bigger than moving number, inversions change by +3
 
-> For puzzles with **odd** width there're always **even** count of numbers between, so the parity of inversions is invariant.
+> For puzzles with **odd** width there are always **even** count of numbers between, so the parity of inversions is invariant.
 
 Since vertical move flips the parity, `0`'s row number in the position shows **how many times the parity of inversions has flipped**.
 Because `0` in the final position is in the last row, we count `0`'s position from bottom, starting at 1 (_from here forth I'll count from bottom and starting at 1, unless otherwise noted_).
@@ -264,7 +264,7 @@ _Example_: for the starting position:
 
 What to do if the puzzle is unsolvable?
 
-As I said earilier, we could just shuffle the array until we get a solvable one.
+As I said earlier, we could just shuffle the array until we get a solvable one.
 But, actually, we can make use of one little trick:
 
 > Swapping two largest numbers (e.g. for 4x4 it's `14` and `15`) will flip the parity of number of inversions
@@ -509,6 +509,6 @@ A free lunch: the [universal algorithm](#5-universal-algorithm) works for any go
 If you made this far, congratulations!
 Now you know (I hope) a little more of this (seemingly) simple game of 15 puzzle.
 
-The source code of my game is hosted on [GitHub](https://github.com/italankin/15Puzzle). There're also [tests](https://github.com/italankin/15Puzzle/tree/master/app/src/test/java/com/italankin/fifteen/game) you can play with, trying different game types and confgirations.
+The source code of my game is hosted on [GitHub](https://github.com/italankin/15Puzzle). There are also [tests](https://github.com/italankin/15Puzzle/tree/master/app/src/test/java/com/italankin/fifteen/game) you can play with, trying different game types and configurations.
 
 And, in case you want to play the game itself, you can download it from [Google Play](https://play.google.com/store/apps/details?id=com.italankin.fifteen).
