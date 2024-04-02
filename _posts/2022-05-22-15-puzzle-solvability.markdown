@@ -5,7 +5,7 @@ date:   2022-05-22 11:06:00 +0500
 
 As a developer of [15 puzzle Android game](https://15puzzle.app/), I need to generate starting puzzle positions for different puzzle configurations, which must always have a solution - and this, as it turns out, is a challenge.
 
-In this post I will cover so called solvability of 15 puzzle and different approaches to this topic for various puzzle sizes and types.
+In this post I will cover so-called solvability of 15 puzzle and different approaches to this topic for various puzzle sizes and types.
 
 # 1. What is 15 puzzle?
 
@@ -14,7 +14,7 @@ It looks like this:
 
 {% include image.html url="/assets/posts/15_puzzle_solvability/15-puzzle-start.png" description="Start position" %}
 
-The goal of the game is arrange tiles in order by sliding (vertically or horizontally) tiles:
+The goal of the game is to arrange tiles in order by sliding (vertically or horizontally) tiles:
 
 {% include image.html url="/assets/posts/15_puzzle_solvability/15-puzzle-goal.png" description="Goal position" %}
 
@@ -204,13 +204,13 @@ After:
 
 The move changed number of inversions:
 
-|Number|Numbers less than (before)|Numbers less than (after)|Inversions change|
-|---|---|---|---|
-|`8`|`3`, `4`|`3`, `4`|0|
-|`4`|`3`|-|-1|
-|`12`|`3`|`3`, `4`|+1|
-|`3`|-|-|0|
-|`14`|-|`4`|+1|
+| Number | Numbers less than (before) | Numbers less than (after) | Inversions change |
+|--------|----------------------------|---------------------------|-------------------|
+| `8`    | `3`, `4`                   | `3`, `4`                  | 0                 |
+| `4`    | `3`                        | -                         | -1                |
+| `12`   | `3`                        | `3`, `4`                  | +1                |
+| `3`    | -                          | -                         | 0                 |
+| `14`   | -                          | `4`                       | +1                |
 
 _Total change_: +1 (52 → 53)
 
