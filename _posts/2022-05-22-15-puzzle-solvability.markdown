@@ -3,6 +3,8 @@ title:  "When 15 puzzle goes wild: a tale of solvability"
 date:   2022-05-22 11:06:00 +0500
 ---
 
+> [This article in Russian](https://habr.com/ru/articles/805541/)
+
 As a developer of [15 puzzle Android game](https://15puzzle.app/), I need to generate starting puzzle positions for different puzzle configurations, which must always have a solution - and this, as it turns out, is a challenge.
 
 In this post I will cover so-called solvability of 15 puzzle and different approaches to this topic for various puzzle sizes and types.
