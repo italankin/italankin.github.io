@@ -50,6 +50,12 @@ TTS Telegram bot
 * Try it: [@samplevoicebot][samplevoicebot]
 * Source: [GitHub][samplevoicebot-source]
 
+#### ⚒️ fifteen-solver
+
+Kotlin library for solving 15 puzzles
+
+* Source: [GitHub][fifteen-solver-source]
+
 #### ⚒️ mitmproxy addons
 
 Useful addons for [mitmproxy.org](https://mitmproxy.org)
@@ -115,6 +121,8 @@ at [Tinkoff Android meet-up #2][tinkoff-meet-up-2])
 [samplevoicebot]: https://t.me/samplevoicebot
 
 [samplevoicebot-source]: https://github.com/italankin/samplevoicebot
+
+[fifteen-solver-source]: https://github.com/italankin/fifteen-solver
 
 [mitmproxy-addons-source]: https://github.com/italankin/mitmproxy-addons
 
