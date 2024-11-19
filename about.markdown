@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-I am Android developer with 7 years' experience, currently employed in F-Tech.
+I am Android developer with 9 years' experience.
 
 Sometimes I [code](/projects/), sometimes I do [photography][instagram].
 
