@@ -43,6 +43,12 @@ Android launcher without icons
 * Download: [Google Play][lnch-store]
 * Source: [GitHub][lnch-source]
 
+#### ⚒️ Gitlab CI Helper
+
+Quality of life improvements for GitLab CI in Intellij IDEA.
+
+* [Source][gitlab-ci-helper-source]
+
 #### 💬 Sample Voice Bot
 
 TTS Telegram bot
@@ -113,6 +119,8 @@ at [Tinkoff Android meet-up #2][tinkoff-meet-up-2])
 [shisensho-store]: https://play.google.com/store/apps/details?id=com.italankin.shisensho
 
 [shisensho-source]: https://github.com/italankin/shisensho-base
+
+[gitlab-ci-helper-source]: https://opensource.tbank.ru/mobile-tech/gitlab-ci-helper
 
 [lnch-store]: https://play.google.com/store/apps/details?id=com.italankin.lnch
 
